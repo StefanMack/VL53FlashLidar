@@ -6,7 +6,7 @@ Der TOF-Sensor VL53L1X von ST Micro (https://www.st.com) misst Abstände mit dem
 Der Sensor VL53L1X ist von verschiedenen Herstellern wie Adafruit oder Pololu auf einem Breakout-Board verfügbar. Ein solches Board kostet ca. 15 €.
 
 Genau genommen handelt es sich hierbei nicht nur um einen einstrahligen TOF-Sensor sondern um einen Flash Lidar:
-Der VL53L1X beleuchtet die Szene global, kann aber aufgrund seiner 16x16 getrennten Empfänger (SPADs) Echos aus unterschiedlichen Richtungen unterscheiden. Somit kann man ihn auch als „Pulslaufzeitkamera mit 16x16 Pixeln“ bezeichnen.  
+Der VL53L1X beleuchtet die Szene global, kann aber aufgrund seiner 16x16 getrennten Empfänger (SPADs) Echos aus unterschiedlichen Richtungen unterscheiden. Somit kann man ihn auch als „Lichtlaufzeitkamera mit 16x16 Pixeln“ bezeichnen.  
 
 ![Messaufbau](/setupFussboden_klein.JPG)
 
