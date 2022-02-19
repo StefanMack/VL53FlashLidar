@@ -1,12 +1,12 @@
 # Low Cost Flash Lidar mit VL53L1X
 Der TOF-Sensor VL53L1X von ST Micro (https://www.st.com) misst Abstände mit dem Lichtlaufzeitverfahren. Dabei wird ähnlich wie beim Ultraschallverfahren über die Echolaufzeit („Time Of Flight“ = TOF) der Abstand eines Objekts bestimmt, welches das Echo erzeugt hat.
-![Sensor](/sensorBreakout_klein.jpg)
+![Sensor](/sensorBreakout_klein.JPG)
 
 Der Sensor VL53L1X ist von verschiedenen Herstellern wie Adafruit oder Pololu auf einem Breakout-Board verfügbar. Ein solches Board kostet ca. 15 €.
 
 Genau genommen handelt es sich hierbei nicht nur um einen einstrahligen TOF-Sensor sondern um einen Flash Lidar:
 Der VL53L1X beleuchtet die Szene global, kann aber aufgrund seiner 16x16 getrennten Empfänger (SPADs) Echos aus unterschiedlichen Richtungen unterscheiden. Somit kann man ihn auch als „Pulslaufzeitkamera mit 16x16 Pixeln“ bezeichnen.
-![Messaufbau](/setupFussboden_klein.jpg)
+![Messaufbau](/setupFussboden_klein.JPG)
 
 Anders als bei einer echten Pulslaufzeitkamera kann der  VL53L1X pro Messung immer nur einen vorher festgelegten Pixelbereich auslesen. Diese Pixelbereich muss zudem mindestens 4x4 Pixel groß sein.
 
