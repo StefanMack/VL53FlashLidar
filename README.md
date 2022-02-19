@@ -10,7 +10,7 @@ Der VL53L1X beleuchtet die Szene global, kann aber aufgrund seiner 16x16 getrenn
 
 ![Messaufbau](/setupFussboden_klein.JPG)
 
-Anders als bei einer echten Pulslaufzeitkamera kann der  VL53L1X pro Messung immer nur einen vorher festgelegten Pixelbereich auslesen. Diese Pixelbereich muss zudem mindestens 4x4 Pixel groß sein.
+Anders als bei einer echten Lichtlaufzeitkamera kann der  VL53L1X pro Messung immer nur einen vorher festgelegten Pixelbereich auslesen. Diese Pixelbereich muss zudem mindestens 4x4 Pixel groß sein.
 
 In einem Applikationsvideo (https://www.youtube.com/watch?v=J_4giQJt7WI) von ST Micro wird ein Flash Lidar vorgestellt, der aus 9 VL53L1X Sensoren aufgebaut ist und damit einen Scanfeld von etwa 180° überwacht. Jeder Einzelsensor davon überwacht ein Winkelsegment von ca. 20°.
 Dieses Applikationsvideo war die Inspiration für die hier vorgestellte Arbeit: Statt 9 Sensoren wird hier nur ein Sensor verwendet.
